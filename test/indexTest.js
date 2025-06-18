@@ -4,6 +4,7 @@ const fs = require('fs')
 const path = require('path')
 
 const js = fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
+let companyCeo = "Susan Smith";
 
 describe('index.js', function () {
   describe('companyName', function () {
